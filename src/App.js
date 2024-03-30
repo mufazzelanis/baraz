@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import BarazMall from './Components/BarazMall/BarazMall';
+import Carousel from './Components/Carousel/Carousel';
+import FlashSale from './Components/FlashSale/FlashSale';
+import LogoSearchBar from './Components/LogoSearchBar/LogoSearchBar';
+import Navbar from './Components/Navbar/Navbar';
+import TopBanner from './Components/TopBanner/TopBanner';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+      <LogoSearchBar/>
+      <Carousel/>
+      <TopBanner/>
+      <FlashSale/>
+      <BarazMall/>
+    </>
   );
 }
 

@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #ececec;
+}
+.nav-item:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.navbar ul li{
+    font-size: 12px;
+    padding: 0 15px;
+}

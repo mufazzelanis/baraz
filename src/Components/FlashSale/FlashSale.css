@@ -1,0 +1,31 @@
+.flassale-container{
+    height: 350px;
+
+}
+.card-body:hover{
+    background-color: #e0f524a6;
+    height: 335px;
+}
+.i-logo:hover{
+    width: 180px;
+    
+}
+.card-title{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.card-price{
+    color: #f57224;
+    font-size: 18px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+.text{
+    text-align: center;
+    padding: 10px 0 0 0 ;
+    font-size: 25px;
+    
+    
+}
